@@ -1,0 +1,23 @@
+from PIL import Image, ImageOps
+import matplotlib.pyplot as plt
+
+#CONST:
+R = 0
+F = -2 * R + 1
+
+def deltaFs(y : int):
+    return 4 * y  + 6
+
+def deltaFd(x,y):
+    return 4 *x + 4*y + 10
+
+def bresenham_circle(R : int, img : Image):
+    pass
+
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
